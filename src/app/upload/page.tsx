@@ -9,7 +9,7 @@ export default function Upload() {
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
-    const res = await fetch("api/updateusers", {
+    const res = await fetch('api/updateusers', {
       method: "POST",
       headers: {
         "content-Type": "application/json",
