@@ -49,7 +49,7 @@ export default function Upload() {
           required
         />
 
-        <button type="submit">Creat an user</button>
+        <button type="submit">Create an user</button>
       </form>
       {message && <p>{message}</p>}
     </div>
